@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+body {
+  overscroll-behavior-y: none;
+  overflow-x: hidden;
+}
+
+:root {
+  --brand-primary: #262D33;
+  --brand-red: #9D2235;
+  --brand-red-dark: #7a1a28;
+  --brand-teal: #185676;
+  --brand-teal-light: #709CBB;
+  --brand-gray-light: #D5D5D4;
+}
+
+/* iOS safe area support */
+:root {
+  --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+}
